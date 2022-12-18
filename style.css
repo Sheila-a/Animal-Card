@@ -136,7 +136,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 428px) {
     .head {
         font-size: 35px;
         letter-spacing: 3vh;
