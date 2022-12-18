@@ -140,9 +140,15 @@ footer {
     .head {
         font-size: 35px;
         letter-spacing: 3vh;
+        height: 9vh;
     }
 
     section {
         margin: 5vh 3vh;
+    }
+
+    footer {
+        letter-spacing: 1vh;
+        font-size: 12px;
     }
 }
