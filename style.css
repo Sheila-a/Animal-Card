@@ -124,10 +124,6 @@ footer {
         align-items: center;
     }
 
-    .head {
-        /* font-size: 3vw; */
-    }
-
     .card {
         width: 60vw;
         height: 50vh;
@@ -137,5 +133,16 @@ footer {
 @media only screen and (max-width: 582px) {
     .card {
         height: 60vh;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .head {
+        font-size: 35px;
+        letter-spacing: 3vh;
+    }
+
+    section {
+        margin: 5vh 3vh;
     }
 }
