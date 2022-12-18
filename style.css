@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    width: 100vw;
+}
+
+.head {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    /* background: linear-gradient(20deg, red, green, blue); */
+    background: linear-gradient(20deg, rgba(255, 255, 255, 0.527), rgb(169, 169, 235), rgb(53, 53, 170), rgb(169, 169, 235), rgba(255, 255, 255, 0.527));
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 13vh;
+    margin-top: 0;
+    padding: 20px 0 0 0;
+    color: white;
+    letter-spacing: 5vh;
+    width: 100vw;
+}
+
+
+section {
+    background: rgb(169, 169, 235);
+    display: flex;
+    margin: 20.7vh 10vh;
+}
+
+.card {
+    width: 50vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.527);
+    margin: 5vh 8vh;
+    padding: 2vh;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card:hover {
+    box-shadow: rgb(53, 53, 170) 0px 5px 15px;
+}
+
+.card-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 4.5px;
+    padding-left: 10px;
+    border: 1px solid var(--second-color);
+    border-radius: 4px;
+    box-shadow: 4px 4px 0 rgba(26, 36, 34, 0.103);
+    color: #fff;
+    cursor: pointer;
+    font-size: 11px;
+    background: rgb(53, 53, 170);
+}
+
+.card-btn span {
+    padding: 5px 6px;
+    border-radius: 3px;
+    background: rgb(169, 169, 235);
+    color: #fff;
+    margin-left: 0.5rem;
+
+}
+
+.card-btn:hover {
+    background: rgb(169, 169, 235);
+    color: rgb(53, 53, 170);
+
+    box-shadow: 4px 4px 0 rgba(83, 92, 90, 0.459);
+}
+
+.card-btn:hover span {
+    color: rgb(53, 53, 170);
+    background: #fff;
+    margin-left: 1rem;
+    transition: .3s ease-in;
+}
+
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(20deg, rgba(255, 255, 255, 0.527), rgb(169, 169, 235), rgb(53, 53, 170), rgb(169, 169, 235), rgba(255, 255, 255, 0.527));
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+    color: white;
+    letter-spacing: 5vh;
+    width: 100vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 1050px) {
+    section {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .card {
+        width: 60vh;
+    }
+}
+
+@media only screen and (max-width: 994px) {
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 60vw;
+    }
+}
