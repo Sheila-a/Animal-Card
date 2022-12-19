@@ -52,6 +52,10 @@ section {
     height: 40%;
 }
 
+.card p {
+    text-align: justify;
+}
+
 .card-btn {
     display: inline-block;
     margin-top: 1rem;
